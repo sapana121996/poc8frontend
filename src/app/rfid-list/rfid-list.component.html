@@ -1,0 +1,19 @@
+<p>rfid-list works!</p>
+<div class="row">
+    <table class="table table-stripped">
+        <thead>
+            <tr>
+                <th>rfid_number</th>
+                <th>rfid_date</th>
+                <th>cur_time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let temp of temps">
+                <td>{{temp.rfid_number}}</td>
+                <td>{{temp.rdif_date}}</td>
+                <td>{{temp.cur_time}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
